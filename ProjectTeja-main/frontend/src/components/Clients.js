@@ -4,12 +4,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const logos = [
-  "/clients/joshtalks-logo.png",
   "/clients/kukufm-logo.png",
-  // "/clients/pocketfm-logo.jpg",
-  "/clients/gienteach-logo.png",
-  "/clients/bayantech-logo.png",
-  "/clients/pocket-logo.png",
+  "/clients/pocketfm-logo.png",
+  "/clients/futurebee-logo.png",
+  "/clients/geintech-logo.png",
+  "/clients/bayan-logo.png",
+  "/clients/storylogo.png",  
 ];
 
 export default function Clients() {
@@ -46,8 +46,8 @@ export default function Clients() {
             <Image
               src={logo}
               alt="client logo"
-              width={140}
-              height={60}
+              width={150}
+              height={100}
               
             />
           </div>

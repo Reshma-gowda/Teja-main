@@ -40,7 +40,7 @@ export default function Navbar() {
                 alt="TEJA Logo"
                 width={110}
                 height={40}
-                className="object-contain"
+                className="rounded-full"
               />
               <motion.div
                 className="absolute inset-0 blur-xl bg-green-100/30 rounded-full"
